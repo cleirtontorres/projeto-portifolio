@@ -28,6 +28,7 @@ body {
   line-height: 1.5em;
   background-color: var(--fundo-principal);
   color: var(--texto);
+  scroll-behavior: smooth;
 }
 
 header {
@@ -37,6 +38,9 @@ header {
   padding: 10px;
   justify-content: flex-end;
   align-content: center;
+  position: sticky;
+  top: 0;
+  z-index: 1;
 }
 
 #menu ul {
